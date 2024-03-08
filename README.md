@@ -57,8 +57,11 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 ## OUTPUT:
-Mention the optimal policy, optimal value function , success rate for the optimal policy.
+
+Optimal policy
+Optimal value function
+Success rate for the optimal policy.
 
 ## RESULT:
 
-Write your result here
+Thus, a Python program is developed to find the optimal policy for the given MDP using the policy iteration algorithm.
