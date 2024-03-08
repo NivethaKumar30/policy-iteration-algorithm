@@ -30,6 +30,10 @@ Convergence Check:
 After each policy improvement step, we check for convergence by comparing the current policy with the previous one. If there is no significant change across all states, the loop terminates, signifying that the optimal policy has been found.
 
 ## POLICY IMPROVEMENT FUNCTION
+
+NAME : NIVETHA .K
+
+REG NO:212222230102
 ```
 def policy_improvement(V, P, gamma=1.0):
     Q=np.zeros((len(P),len(P[0])),dtype=np.float64)
@@ -43,6 +47,9 @@ def policy_improvement(V, P, gamma=1.0):
     
 ## POLICY ITERATION FUNCTION
 
+NAME :NIVETHA .K
+
+REG NO: 212222230102
 ```
 def policy_iteration(P, gamma=1.0, theta=1e-10):
     random_actions = np.random.choice(tuple(P[0].keys()), len(P))
