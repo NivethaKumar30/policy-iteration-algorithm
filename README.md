@@ -42,7 +42,19 @@ def policy_improvement(V, P, gamma=1.0):
 ```
     
 ## POLICY ITERATION FUNCTION
-Include the policy iteration function
+
+```
+def policy_iteration(P, gamma=1.0, theta=1e-10):
+    random_actions = np.random.choice(tuple(P[0].keys()), len(P))
+    pi= lambda s:{s:a for s,a in enumerate(random_actions)}[s]
+    while True:
+      old_pi = {s:pi(s) for s in range (len(P))}
+      V = policy_evaluation(pi,P,gamma,theta)
+      pi = policy_improvement(V,P,gamma)
+      if(old_pi=={s:pi(s) for s in range (len(P))}):
+        break
+    return V, pi
+```
 
 ## OUTPUT:
 Mention the optimal policy, optimal value function , success rate for the optimal policy.
