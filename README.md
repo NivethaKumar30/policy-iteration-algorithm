@@ -58,11 +58,11 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 
 ## OUTPUT:
 
-Optimal policy
+Optimal value function
 
 ![Screenshot 2024-03-08 092234](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/aa9f292e-445a-408b-af57-cbaabeca0a75)
 
-Optimal value function
+Optimal policy
 
 ![Screenshot 2024-03-08 092221](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/4f611746-88e0-49cb-9a76-efc0454804dd)
 
