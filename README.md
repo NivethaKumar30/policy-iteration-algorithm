@@ -1,7 +1,12 @@
+NAME: NIVETHA .K
+
+REG NO:212222230102
+
 # POLICY ITERATION ALGORITHM
 
 ## AIM
-Write the experiment AIM.
+
+To develop a Python program to find the optimal policy for the given MDP using the policy iteration algorithm.
 
 ## PROBLEM STATEMENT
 Explain the problem statement.
