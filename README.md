@@ -67,15 +67,16 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 
 Optimal value function
 
-![Screenshot 2024-03-12 140722](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/2d3c1763-b530-42cc-b580-82a05cadefb9)
+![Screenshot 2024-03-12 141707](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/24b0af7e-4caf-43d9-9274-28c78cfd58be)
 
 Optimal policy
 
-![Screenshot 2024-03-12 140702](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/6a7f552a-ca40-4318-81bd-2904f3f884cd)
+![Screenshot 2024-03-12 141652](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/dc369a0b-3dbc-44e4-80eb-aa3358ff89c7)
 
 Success rate for the optimal policy.
 
-![Screenshot 2024-03-12 140711](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/ed6b3185-1225-4ca5-a377-37f25b466b56)
+![Screenshot 2024-03-12 141659](https://github.com/NivethaKumar30/policy-iteration-algorithm/assets/119559844/3e2ce40a-8668-48bb-9c38-4f91d3e11f99)
+
 
 ## RESULT:
 
