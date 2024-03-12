@@ -31,10 +31,9 @@ After each policy improvement step, we check for convergence by comparing the cu
 
 ## POLICY IMPROVEMENT FUNCTION
 
-NAME : NIVETHA .K
-
-REG NO:212222230102
 ```
+print('Nivetha')
+print("212222230102")
 def policy_improvement(V, P, gamma=1.0):
     Q=np.zeros((len(P),len(P[0])),dtype=np.float64)
     for s in range (len(P)):
@@ -47,10 +46,9 @@ def policy_improvement(V, P, gamma=1.0):
     
 ## POLICY ITERATION FUNCTION
 
-NAME :NIVETHA .K
-
-REG NO: 212222230102
 ```
+print('Nivetha')
+print('212222230102')
 def policy_iteration(P, gamma=1.0, theta=1e-10):
     random_actions = np.random.choice(tuple(P[0].keys()), len(P))
     pi= lambda s:{s:a for s,a in enumerate(random_actions)}[s]
